@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+
+body {
+    background-color: rgb(65, 66, 66);
+}
+
+.letrasmenu {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: sticky;
+}
+
+.imagen {
+    background-color: #D4D1CB;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.botonesmenu {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.firma {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botonesmenu:hover {
+    background-color: #1d1d1d;
+}
+
+.video {
+    background-color: rgb(65, 66, 66);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.nosotros {
+    background-color: rgb(65, 66, 66);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.hola {
+    background-color: #aaa0a0;
+    align-self: center;
+    width: 60%;
+    height: 120px;
+    border-radius: 20px;
+    text-align: justify;
+    word-break: break-word;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.panel {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5f7;
+    background-image: radial-gradient(#4951f9 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    display: flex;
+    min-height: 100vp;
+
+}
+
+.formulario {
+    background-color: #e5e5f7;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px --5px rgb(0 0 0/30%);
+    text-align: center;
+
+}
+
+.titulo {
+    font-size: 2rem;
+    margin-bottom: .5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.parrafo {
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formulariolink {
+    font-weight: 400;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.contenedorformulario {
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.grupoformulario {
+    position: relative;
+    --color: #5757577e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.formularioinput {
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.formularioinput:focus+.formulariolabel,
+.formularioinput:not(:placeholder-shown)+.formulariolabel {
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #3866f2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.formulariolabel {
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    left: 5px;
+    transform: trasnlateY(10px);
+    transform: transform 5.s, color .3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.enviar {
+    background-color: #3866f2;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+}
+
+.for_line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #3866f2;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.formularioinput:focus~.for_line,
+.formularioinput:not(:placeholder-shown)~.for_line {
+    transform: scale(1);
+
+}
+
+.mostrarproductos {
+    display: flex;
+    z-index: -3;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.productos {
+    background-color: rgb(246, 251, 255);
+    padding: 20px;
+    height: 399px;
+    width: 227px;
+    border-radius: 7px;
+    margin: 1%;
+
+}
+
+.medidas {
+    display: flex;
+}
+
+.seleccionar {
+    padding: 1%;
+    background-color: #b9b8b8;
+}
+
+
+.Boton {
+    background-color: #000;
+    cursor: pointer;
+    border: none;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    z-index: 1;
+
+
+}
+
+.Boton::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, deeppink, blue);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+
+
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.postprocesamiento {
+    display: flex;
+
+
+}
+
+.condiciones {
+    display: flex;
+}
+
+.cantidad {
+    display: flex;
+
+}
+
+.carritoo {
+    background-color: #882020;
+    width: 95%;
+    height: 463px;
+    border-radius: 20px;
+    top: 20%;
+    left: 50%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.cajita {
+    background-color: #1d1d1d;
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 3%;
+
+
+
+
+}

@@ -287,30 +287,127 @@ body {
 }
 
 .carritoo {
-    background-color: #882020;
+    background-color: #e6dbdb;
     width: 95%;
-    height: 463px;
+    height: 700px;
     border-radius: 20px;
     top: 20%;
     left: 50%;
     margin: auto;
     margin-top: 1%;
     margin-bottom: 1%;
-    display: flex;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 
 
 }
 
 .cajita {
-    background-color: #1d1d1d;
-    width: 80%;
-    height: 200px;
+
+    background-color: #c49999;
+    width: 70%;
+    height: 160px;
+    border-radius: 20px;
+    margin-top: 5%;
+   
+
+}
+
+.carrito2 {
+    display: contents;
+}
+
+.goku {
     border-radius: 20px;
     display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+
+
+}
+
+.lista {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.precio {
+    border-radius: 20px;
+    display: flex;
+    margin-left: 20%;
+
+
+}
+
+.total {
+    margin-left: 55%;
+
+}
+
+.borrar {
+    padding: 10px;
+    border: 1px;
+    border-radius: 4px;
+    left: 10px;
+    margin-left: 20%;
+}
+
+.cuantos {
+    margin-left: 20%;
+}
+
+.botoncito {
+    width: 25px;
+    height: 25px;
+    border: 1px;
+    border-radius: 4px;
+    left: 10px;
+
+
+}
+
+.maximo {
+
+    padding: 10px;
+    border: 1px;
+    border-radius: 4px;
+    left: 10px;
+    margin-left: 140%;
+}
+
+.Cuantos2{
+    margin-left: 20%;
+}
+
+.subtotal{
+    margin-left: 20%;
+}
+
+.cajon{
+    background-color: #b9b6b6;
+    width: 70%;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 2%;
+    display: flex;
+   
+}
+
+.costo{
+    margin-left: 32%;
+}
+
+.Quiero{
+    margin-left: 50%;
     margin-top: 3%;
+    border: #e9e5e5;
+   
+}
 
-
-
+.resumen{
+    display: flex;
+    
 
 }
